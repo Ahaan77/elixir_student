@@ -28,3 +28,7 @@ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 
 }
 img { max-width: 100%; }
+p.required-field label::after { 
+    content: "*";
+    color: red;
+}
